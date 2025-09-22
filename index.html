@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pion Robot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="pion-face" id="pion">
+    <div class="antenna"></div>
+    <div class="eye-container">
+      <div class="eye left-eye"><div class="eyelid-top"></div>
+<div class="eyelid-bottom"></div></div>
+      <div class="eye right-eye"><div class="eyelid-top"></div>
+<div class="eyelid-bottom"></div></div>
+    </div>
+    <div class="mouth" id="mouth"></div>
+    <div class="speech-bubble" id="speech">Hello, hooman!</div>
+    <div class="emotion-buttons">
+      <button onclick="setEmotion('smile')">?? Smile</button>
+      <button onclick="setEmotion('sad')">?? Sad</button>
+      <button onclick="setEmotion('surprise')">?? Surprise</button>
+      <button onclick="setEmotion('lol')">?? LOL</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
